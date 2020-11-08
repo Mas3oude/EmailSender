@@ -1,0 +1,23 @@
+{
+  "name": "EmailSender",
+  "version": "1.0.0",
+  "description": "Template for creating MediaWiki Services in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mas3oude/EmailSender.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mas3oude/EmailSender/issues"
+  },
+  "homepage": "https://github.com/Mas3oude/EmailSender#readme",
+  "dependencies": {
+    "nodemailer": "^6.4.15"
+  }
+}
