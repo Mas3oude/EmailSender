@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "Template for creating MediaWiki Services in Node.js",
   "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "nodemailer": "^6.4.15"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,8 +21,5 @@
   "bugs": {
     "url": "https://github.com/Mas3oude/EmailSender/issues"
   },
-  "homepage": "https://github.com/Mas3oude/EmailSender#readme",
-  "dependencies": {
-    "nodemailer": "^6.4.15"
-  }
+  "homepage": "https://github.com/Mas3oude/EmailSender#readme"
 }

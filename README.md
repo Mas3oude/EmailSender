@@ -18,6 +18,13 @@ Install the dependencies
 cd service-template-node
 npm install
 ```
+.env variables should be provided
+
+EmailHOST="smtp.ethereal.email"
+EmailPort=587
+Emailsecure=false
+EmailUser=testAccount.user
+EmailPass=testAccount.pass
 
 You are now ready to get to work!
 
@@ -39,17 +46,6 @@ This starts an HTTP server listening on `localhost:6927`. There are several
 routes you may query (with a browser, or `curl` and friends):
 
 * `http://localhost:6927/_info/`
-* `http://localhost:6927/_info/name`
-* `http://localhost:6927/_info/version`
-* `http://localhost:6927/_info/home`
-* `http://localhost:6927/{domain}/v1/siteinfo{/prop}`
-* `http://localhost:6927/{domain}/v1/page/{title}`
-* `http://localhost:6927/{domain}/v1/page/{title}/lead`
-* `http://localhost:6927/ex/err/array`
-* `http://localhost:6927/ex/err/file`
-* `http://localhost:6927/ex/err/manual/error`
-* `http://localhost:6927/ex/err/manual/deny`
-* `http://localhost:6927/ex/err/auth`
 
 ### Tests
 
